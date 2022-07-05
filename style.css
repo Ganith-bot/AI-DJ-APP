@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://wallpapercave.com/uwp/uwp2310091.jpeg");
+    position: fixed;
+    background-size: cover;
+    color: white;
+
+}
+
+#heading1 {
+    background: transparent;
+    backdrop-filter: blur(101px);
+    border: 3px #8ddff4 solid;
+    border-radius: 4px;
+    color: white    ;
+}
+
+#vol1 {
+    float:right;
+    background: transparent;
+    backdrop-filter: blur(11px);
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+    margin-right: 170px;
+}
+
+#speed1 {
+    float:left;
+    background: transparent;
+    backdrop-filter: blur(11px);
+    border-radius: 4px;
+    height: 50px;
+
+    width: 50px;
+   
+    margin-left: 15px;
+}
+
+#img1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+#play_btn {
+    color: black;
+}
+
+canvas {
+    border:2px #8ddff4 solid ;
+    background-color: white;
+    margin-top: 100px;
+}
